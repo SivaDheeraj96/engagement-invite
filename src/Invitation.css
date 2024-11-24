@@ -9,6 +9,18 @@
 }
 .card {
     width: 500px;
-    height: 600px;
+    height: 700px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+
+.fancy-font {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.fancy-font-2 {
+    font-family: "Waterfall", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
