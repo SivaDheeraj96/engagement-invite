@@ -120,23 +120,23 @@ export function Invitation(){
 }
 
 
-interface IconProps_t{
-    iconName: string;
-    style?: Object;
-}
-function Icon(props: IconProps_t){
-    const {iconName, style} = props;
-    const SVGComp = React.useMemo(() => {
-        switch(iconName){
-            case 'Background':
-                return null;
-        }
-    }, [iconName]);
+// interface IconProps_t{
+//     iconName: string;
+//     style?: Object;
+// }
+// function Icon(props: IconProps_t){
+//     const {iconName, style} = props;
+//     const SVGComp = React.useMemo(() => {
+//         switch(iconName){
+//             case 'Background':
+//                 return null;
+//         }
+//     }, [iconName]);
 
-    if(!SVGComp) return null;
-    return (
-        <div style={style}>
-            {SVGComp}
-        </div>
-    )
-}
+//     if(!SVGComp) return null;
+//     return (
+//         <div style={style}>
+//             {SVGComp}
+//         </div>
+//     )
+// }
